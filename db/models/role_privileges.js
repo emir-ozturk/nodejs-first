@@ -8,7 +8,6 @@ const schema = new mongoose.Schema({
     permission: String,
     created_by: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true,
     },
 }, {
     versionKey: false,

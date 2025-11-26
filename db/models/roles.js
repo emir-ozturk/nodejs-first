@@ -6,6 +6,7 @@ const schema = new mongoose.Schema({
         type: Boolean,
         default: true,
     },
+    permissions: mongoose.Schema.Types.Mixed,
     created_by: {
         type: mongoose.Schema.Types.ObjectId,
     },
